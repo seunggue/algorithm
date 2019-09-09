@@ -1,36 +1,25 @@
-import sys
-sys.setrecursionlimit(10000)
+def preorder(idx,e,find):
+    if idx > 0:
+        if tree[idx] == find:
+            preorder(ch1[n])
+            preorder(ch2[n])
+        preorder(ch1[n])
+        preorder(ch2[n])
 
-def game(s_i,s_j):
 
-    global ladder2
-    c_i = [0,0,1]
-    c_j = [1,-1,0]
-    if ladder2[s_i][s_j] == 2:
-        print(f'찾음{s_j}')
-        return 'find'
+
+e,n = map(int,input().split())
+tree = list(map(int, input().split()))
+
+ch1 = [0] * e+1
+ch2 = [0] * e+1
+
+for i in range(e-1):
+    p = tree[2*i]
+    c = tree[2*i+1]
+    if ch1[p] == 0:
+        ch1[p] = c
     else:
-        ladder2[s_i][s_j] = 0
-    for k in range(3):
-        i = s_i + c_i[k]
-        j = s_j + c_j[k]
-        if j < 10 and j > -1 and i < 10 and ladder2[i][j] >0:
-            print(f'{i} {j}로 이동')
-            game(i,j)
+        ch2[p] = c
 
-
-
-
-for _ in range(1):
-    n = int(input())
-    ladder = [list(map(int,input().split())) for _ in range(10)]
-    for j in range(10):
-        ladder2 = ladder[:]
-        if ladder[0][j] == 1:
-            print(f'{j}로 이동!!!!')
-            if game(0,j) == 'find':
-                print(f'#{n} {j}')
-                break
-
-
-
+preorder(1,e,find)
