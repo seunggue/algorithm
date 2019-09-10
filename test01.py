@@ -1,14 +1,31 @@
-def inorder(n, last):
-    global cnt
-    if n <= last: # 유효한 노드면
-        inorder(n*2, last) # 왼쪽 자식으로 이동
-        tree[n] = cnt # visit()
-        cnt += 1
-        inorder(n*2+1, last)
+import sys
+sys.stdin = open('input.txt','r')
 
-for t_c in range(int(input())):
-    n = int(input())
-    tree = [0] * (n+1)
-    cnt = 1
-    inorder(1,n)
-    print('#{} {} {}'.format(t_c+1, tree[1],tree[n//2]))
+def check(buho,left,right):
+    #global result
+    left = int(left)
+    right = int(right)
+    check = ['+','-','/','*']
+    print(buho,left,right)
+    if n_list[left-1][1] in check:
+        print(left,type(n_list[left-1][1]))
+        n_list[left-1][1] = check(n_list[left - 1][1],n_list[left - 1][2],n_list[left - 1][3])
+    elif n_list[right-1][1] in check:
+        print(right,type(n_list[right - 1][1]))
+        n_list[right-1][1] = check(n_list[right - 1][1], n_list[right - 1][2], n_list[right - 1][3])
+
+
+    if buho == '-':
+        return n_list[left-1][1] - n_list[right-1][1]
+    elif buho == '+':
+        return n_list[left-1][1] + n_list[right-1][1]
+    elif buho == '/':
+        return n_list[left-1][1] / n_list[right-1][1]
+    elif buho == '*':
+        return n_list[left-1][1] * n_list[right-1][1]
+
+n = int(input())
+n_list = [list(input().split()) for _ in range(n)]
+result = 0
+result = check(n_list[0][1],n_list[0][2],n_list[0][3])
+print(int(result))

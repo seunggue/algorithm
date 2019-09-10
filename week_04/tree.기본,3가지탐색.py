@@ -2,8 +2,11 @@
 # 1 2 1 3 2 4 3 5 3 6 4 7 5 8 5 9 6 10 6 11 7 12 11 13
 
 def preorder(n):
+    global sum
+    print(n)
     if n>0:
-        print(n, end=' ')
+        sum.append(n)
+        #print(n, end=' ')
         preorder(ch1[n])
         preorder(ch2[n])
 
@@ -33,6 +36,8 @@ ch1 = [0] * (V+1) #부모를 인덱스로 자식 저장
 ch2 = [0] * (V+1)
 par = [0] * (V+1) #자식을 인덱스로 부모 저장
 
+sum = []
+
 for i in range(E):
     p = t[2*i]
     c = t[2*i+1]
@@ -47,7 +52,7 @@ print(ch2)
 print(par)
 
 preorder(1)
-print()
+print(sum)
 # inorder(1)
 # print()
 # postorder(1)
