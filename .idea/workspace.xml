@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b87aeb34-4864-45a7-952c-196eb8ab0eee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week_05/(DFS).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week_06/(그래프)(서로소집합들).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week_06/(그래프)(최소신장트리)(KRUSKAL알고리즘).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test03.py" beforeDir="false" afterPath="$PROJECT_DIR$/test03.py" afterDir="false" />
     </list>
@@ -49,37 +55,37 @@
     <session id="-946043311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="6" />
-          <entry key="project.open.time.3" value="11" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.open.time.3" value="12" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="298" />
-          <entry key="py" value="26825" />
-          <entry key="txt" value="201" />
+          <entry key="dummy" value="348" />
+          <entry key="py" value="28378" />
+          <entry key="txt" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="499" />
-          <entry key="Python" value="26825" />
+          <entry key="PLAIN_TEXT" value="551" />
+          <entry key="Python" value="28378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="64" />
+          <entry key="py" value="74" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="64" />
+          <entry key="Python" value="74" />
         </counts>
       </usages-collector>
     </session>
@@ -96,27 +102,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week_05/(백트래킹)최소생산비용.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <marker date="1568946139543" expanded="true" signature="581:583" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test02.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -128,19 +113,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="152">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/정명한.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="10" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/최동호_최소이동거리.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-326" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <marker date="1568962489817" expanded="true" signature="55:531" ph="..." />
+                <marker date="1569223234199" expanded="true" signature="16:19" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/김기범_최소이동거리.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="25" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week_06/(그래프)(최소신장트리)(KRUSKAL알고리즘).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <marker date="1569217624157" expanded="true" signature="177:262" ph="..." />
               </folding>
             </state>
           </provider>
@@ -178,25 +218,27 @@
         <option value="$PROJECT_DIR$/week_02/test03.py" />
         <option value="$PROJECT_DIR$/week_02/test02.py" />
         <option value="$PROJECT_DIR$/test_01/test03.py.py" />
-        <option value="$PROJECT_DIR$/test05.py" />
         <option value="$PROJECT_DIR$/week_04/tree.기본,3가지탐색.py" />
         <option value="$PROJECT_DIR$/가능한 시험 점수 상돈이형코드.py" />
         <option value="$PROJECT_DIR$/week_04/가능한 시험 점수 상돈이형코드.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/week_05/순열생성(재귀).py" />
         <option value="$PROJECT_DIR$/test02.py" />
         <option value="$PROJECT_DIR$/week_05/박승규.py" />
         <option value="$PROJECT_DIR$/input2.txt" />
+        <option value="$PROJECT_DIR$/week_06/test04.py" />
         <option value="$PROJECT_DIR$/test04.py" />
-        <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/test01.py" />
         <option value="$PROJECT_DIR$/test03.py" />
+        <option value="$PROJECT_DIR$/test05.py" />
+        <option value="$PROJECT_DIR$/test01.py" />
+        <option value="$PROJECT_DIR$/박승규.py" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="643" />
-    <option name="width" value="705" />
+    <option name="x" value="1143" />
+    <option name="width" value="784" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -213,7 +255,8 @@
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="week_06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,10 +271,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\algorithm\week_06" />
       <recent name="C:\Users\student\PycharmProjects\algorithm\week_05" />
+      <recent name="C:\Users\student\PycharmProjects\algorithm" />
       <recent name="C:\Users\student\PycharmProjects\algorithm\week_04" />
       <recent name="C:\Users\student\PycharmProjects\ssafy\week_02" />
-      <recent name="C:\Users\student\PycharmProjects\ssafy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test04">
+  <component name="RunManager" selected="Python.test">
     <configuration name="순열생성(재귀)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ssafy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,7 +312,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ssafy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,7 +324,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\student\PycharmProjects\algorithm\week_04\이진탐색.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,7 +375,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tree.기본,3가지탐색" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ssafy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,11 +383,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week_04/tree.기본,3가지탐색.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\student\PycharmProjects\algorithm\week_06\(그래프)(최소신장트리)(KRUSKAL알고리즘).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,19 +397,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test01" />
-      <item itemvalue="Python.tree.기본,3가지탐색" />
       <item itemvalue="Python.test02 (2)" />
       <item itemvalue="Python.순열생성(재귀)" />
       <item itemvalue="Python.test04" />
+      <item itemvalue="Python.test05" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test05" />
         <item itemvalue="Python.test04" />
         <item itemvalue="Python.순열생성(재귀)" />
         <item itemvalue="Python.test02 (2)" />
-        <item itemvalue="Python.tree.기본,3가지탐색" />
-        <item itemvalue="Python.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -392,10 +436,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="643" y="0" width="705" height="1047" extended-state="0" />
+    <frame x="1143" y="0" width="784" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31934032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2855228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -408,7 +452,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32890365" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3651316" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3651316" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -436,39 +480,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/week_06/(그래프)(최소신장트리)(KRUSKAL알고리즘).py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week_01/문자열숫자열로변환(한글자씩).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week_01/입력한값찾기(정렬됨)(이진검색).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week_01/입력값찾기문제2(이진검색).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week_02/김기범_반복문자지우기.py" />
-    <entry file="file://$PROJECT_DIR$/week_02/양예은_괄호검사.py" />
-    <entry file="file://$PROJECT_DIR$/week_02/남선웅_반복문자.py" />
-    <entry file="file://$PROJECT_DIR$/week_02/박승규.py" />
-    <entry file="file://$PROJECT_DIR$/week_01/앞뒤 글자 바꾸기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week_02/스택(stack)Forth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -566,7 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test05.py" />
     <entry file="file://$PROJECT_DIR$/week_04/subtree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -702,10 +724,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input2.txt">
+    <entry file="file://$PROJECT_DIR$/week_06/양예은.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week_06/고태환 (1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week_05/(DFS).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <marker date="1568946139543" expanded="true" signature="581:583" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,13 +753,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test01.py">
+    <entry file="file://$PROJECT_DIR$/week_06/(그래프)(최소신장트리)(KRUSKAL알고리즘).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="342">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
-            <marker date="1568946139543" expanded="true" signature="581:583" ph="..." />
+            <marker date="1569217624157" expanded="true" signature="177:262" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week_06/(그래프)(서로소집합들).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <marker date="1569201518286" expanded="true" signature="42:95" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/김기범_최소이동거리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/최동호_최소이동거리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/정명한.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -733,19 +820,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
+    <entry file="file://$PROJECT_DIR$/test03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test03.py">
+    <entry file="file://$PROJECT_DIR$/test01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="133">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <marker date="1568962489817" expanded="true" signature="55:531" ph="..." />
+            <marker date="1569223234199" expanded="true" signature="16:19" ph="..." />
           </folding>
         </state>
       </provider>

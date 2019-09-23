@@ -1,3 +1,5 @@
+# 그래프의 기본과 탐색 연산(bfs문제)
+# 풀지 못함아직
 def find(n,m,cnt):
     #print(n,m,cnt)
 
