@@ -9,6 +9,7 @@ def rep(n):
 
 V,E = map(int, input().split())
 edge = list(map(int, input().split()))
+v1, v2 = map(int, input().split())
 p = [i for i in range(V+1)]
 print(p)
 for i in range(E):
