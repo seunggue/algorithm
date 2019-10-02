@@ -1,53 +1,50 @@
+# 인수의 생일 파티
 import sys
 sys.stdin = open('input.txt','r')
 
-def find(i,j,check):
-    global room
+
+def find2()
+
+def find(i,j,cnt,check,start,end,sw):
     global maxC
-    global minN
-    global N
-    global visit
-    global cnt
-
-    visit[i][j] = 1
-
-    cnt += 1
-
-    c_i = [0,-1,0,1]
-    c_j = [1,0,-1,0]
-
-    check.append(room[i][j])
-
-    for n in range(4):
-        n_i = i+c_i[n]
-        n_j = j+c_j[n]
-        if -1 < n_i < N and -1 < n_j < N and visit[n_i][n_j] == 0 and room[n_i][n_j] - room[i][j] == 1:
-            print('11111')
-            print(i,j)
-            print(n_i,n_j)
-            find(n_i,n_j,check)
-        elif -1 < n_i < N and -1 < n_j < N and visit[n_i][n_j] == 0 and room[i][j] - room[n_i][n_j] == 1:
-            print('222222')
-            print(i, j)
-            print(n_i, n_j)
-            find(n_i,n_j,check)
+    global minC
+    global minC2
+    print('====={}====='.format(sw))
+    print(i,j,cnt)
+    if j == end and sw == 1:
+        print('집도착')
+        if cnt > minC:
+            return
         else:
-            if cnt > maxC and cnt > 1:
-                maxC = cnt
-                minN = min(check)
-            elif cnt == maxC:
-                if min(check) < minN:
-                    minN = min(check)
-
-for t_c in range(int(input())):
-    N = int(input())
-    room = [list(map(int, input().split())) for _ in range(N)]
-    minN = 10000000
-    maxC = 0
-    visit = [[0]*N for _ in range(N)]
-    for i in range(N):
-        for j in range(N):
-            cnt = 0
+            minC = cnt
             check = []
-            find(i,j,check)
-    print('#{} {} {}'.format(t_c+1,minN, maxC))
+            find(j,j,0,check,end,start,2)
+            return
+
+    elif j == end and sw == 2:
+        print('여기옴????')
+        if cnt < minC2:
+            minC2 = cnt
+            if minC + minC2 > maxC:
+                print('maxC가즈아')
+                print(minC,minC2)
+                maxC = minC+minC2
+                print(maxC)
+                return
+
+    check.append(i)
+
+    for tree in trees:
+        if tree[1] not in check and tree[0] == j:
+            find(tree[0],tree[1],cnt+tree[2],check,start,end,sw)
+
+N,M,X = map(int,input().split())
+trees = [list(map(int, input().split())) for _ in range(M)]
+maxC = 0
+for tree in trees:
+    cnt = 0
+    check = []
+    minC = 100000000
+    minC2 = 100000000
+    find(tree[0],tree[1],cnt+tree[2],check,tree[0],X,1)
+print(maxC)
