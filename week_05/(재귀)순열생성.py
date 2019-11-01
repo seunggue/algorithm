@@ -20,7 +20,7 @@ def perm(n,k):
             s[n], s[i] = s[i], s[n]
             perm(n+1, k)
             s[n], s[i] = s[i], s[n]
-s = [1,2,3,4]
-perm(1,4)
+s = [1,2,3,4,5]
+perm(0,5)
 
 
