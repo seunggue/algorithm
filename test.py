@@ -1,2 +1,3 @@
-for i in range(4):
-    print(type(i))
+a= []
+a.append(3)
+print(a)

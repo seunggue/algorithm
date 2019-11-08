@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b87aeb34-4864-45a7-952c-196eb8ab0eee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssafy.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssafy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
@@ -87,9 +88,10 @@
     <session id="1858215180">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.2" value="6" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.2" value="8" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -106,14 +108,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3884" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="4758" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="3884" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="4758" />
         </counts>
       </usages-collector>
     </session>
@@ -123,12 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssafy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <marker date="1572857955748" expanded="true" signature="88:652" ph="..." />
-                <marker date="1572857955748" expanded="true" signature="952:953" ph="..." />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -137,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -145,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -198,16 +196,15 @@
         <option value="$PROJECT_DIR$/test06.py" />
         <option value="$PROJECT_DIR$/test05.py" />
         <option value="$PROJECT_DIR$/week_05/(재귀)순열생성.py" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/ssafy.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="753" />
-    <option name="y" value="84" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="989" />
+    <option name="width" value="938" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -215,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,21 +220,10 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="week_05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="week_06" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,14 +397,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="753" y="84" width="974" height="1047" extended-state="1" />
+    <frame x="989" y="0" width="938" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2991453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31111112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4385965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -734,28 +721,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssafy.py">
+    <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1572857955748" expanded="true" signature="88:652" ph="..." />
-            <marker date="1572857955748" expanded="true" signature="952:953" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
+    <entry file="file://$PROJECT_DIR$/ssafy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="420">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
