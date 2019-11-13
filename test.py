@@ -1,3 +1,6 @@
-a= []
-a.append(3)
-print(a)
+a = 0
+b = 1
+if a == True:
+    print('aaa')
+if b == True:
+    print('bbb')
