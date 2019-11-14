@@ -21,7 +21,7 @@ for t_c in range(int(input())):
                         b = food[b_i][b_j] + food[b_j][b_i]
                         print(check)
                         print(b_i, b_j)
-                        print(a, b)
+                        print(abs(a-b))
                         if abs(a-b) < minS:
                             minS = abs(a-b)
     print(minS)

@@ -1,3 +1,4 @@
+#등산로조성
 import sys
 sys.stdin = open('input.txt','r')
 
